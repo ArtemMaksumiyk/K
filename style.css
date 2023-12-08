@@ -1,0 +1,145 @@
+body{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+}
+
+#header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url("https://static.vecteezy.com/system/resources/previews/021/866/057/non_2x/luxury-armchair-in-dark-interior-3d-render-generative-ai-free-photo.jpg");
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat, no-repeat;
+    width:100%;
+    height:380px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+button{
+    font-size: 16px;
+    color:white;
+    width: 200px;
+    height: 50px;
+    border:0px;
+    border-radius: 15px;
+    background-color: #6600FF;
+    transition-duration: 500ms;
+}
+button:hover{
+    transform: scale(1.2) perspective(1px);
+    transition-duration: 500ms;
+}
+.container:not(:first-child){
+    display: flex;
+    justify-content: center;
+    border-top:2px solid rgba(128, 128, 128, 0.158);
+}
+.content{
+    align-content: center;
+    width: 840px
+}
+p{
+    font-size: 18.5px;
+}
+.block{
+    display:inline-block;
+    width: 270px;
+}
+.catalog_images{
+    width: 250px;
+    height: 270px;
+    vertical-align: top;
+    padding-right: 20px;
+}
+.catalog_image3{
+    width: 250px;
+    vertical-align: top;
+}
+img{
+    border-radius: 10px;
+}
+.pos_top{
+    position: relative;
+    bottom:130px;
+    width: 250px;
+    padding-right: 20px;
+}
+.p_top{
+    bottom:170px ;
+}
+#feature{
+    height:900px;
+    display:inline-block;
+    width:220px;
+    float: right;
+    margin-top: -50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    object-fit: cover;
+}
+#features{
+    padding-top: 80px;
+}
+
+.p_block{
+    display:inline-block;
+}
+.p_string{
+    position: relative;
+    left:47px;
+    width:500px;
+}
+.numbers{
+    border-radius: 7px;
+    border: 1px solid #b8bffd;
+    background-color: #DADBF1;
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+.kind_images{
+    width: 250px;
+    height: 170px;
+    vertical-align: top;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.kind_name2{
+    margin-left: 63px;
+}
+.kind_name3{
+    margin-left: 175px;
+}
+.kind_des{
+    vertical-align: top;
+    width:250px;
+    padding-left: 20px;
+}
+.kind_des1{
+    vertical-align: top;
+    width:250px;
+}
+.com_name2{
+    margin-left: 30px;
+}
+.com_name3{
+    margin-left: 30px;
+}
+.com_des{
+    width:250px;
+    vertical-align: top;
+}
+.com_des2{
+    width:250px;
+    margin-left: 30px;
+    vertical-align: top;
+}
+.com_des3{
+    width:250px;
+    margin-left: 22px;
+    vertical-align: top;
+}
